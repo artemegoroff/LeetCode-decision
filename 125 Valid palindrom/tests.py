@@ -6,7 +6,7 @@ s = Solution()
 class PalindromTests(unittest.TestCase):
 
     def test1(self):
-        self.assertEqual(s.isPalindrome('abrba'), True)
+        self.assertEqual(s.isPalindrome('"A man, a plan, a canal: Panama"'), True)
 
     def test2(self):
         self.assertEqual(s.isPalindrome('abrbar'), False)
